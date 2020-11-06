@@ -1,0 +1,98 @@
+
+.mainheading{
+    text-align:center;
+    background-color:rgb(255, 246, 248);
+    padding:10px 10px 10px 10px;
+    font-weight: bolder;
+}
+.image{
+   text-align: center;
+}
+.intro{
+    font-weight:bold;
+    background-color:rgb(255, 246, 248);
+    padding-bottom: 20px;
+    padding-left: 6px;
+    border-radius: 27px;
+}
+.desc{
+    margin-left:15px;
+    margin-bottom: 19px;
+    padding:10px;
+    background-color:rgb(231, 229, 229);
+    font-size:20px;
+    border-radius: 27px;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color:grey;
+    color: white;
+    margin-top: 35px;
+}
+
+nav > ul {
+    border-radius: 40px;
+    background-color: white;
+    border: 3px solid rgb(128, 128, 7);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+
+nav > ul > li {
+    border-radius: 40px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+nav > ul > li > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black !important;
+    background-color:rgb(255, 255, 187);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul > li:first-child > a {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+nav > ul > li:last-child > a {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav > ul > li > a:hover {
+    color: white !important;
+    background-color: black;
+}
+
+#buttonid {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(231, 229, 229);
+  }
