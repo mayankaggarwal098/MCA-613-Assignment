@@ -88,11 +88,14 @@ table {
   
   td, th {
     border: 1px solid #dddddd;
-    background-color: white;
+    
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
     background-color: rgb(231, 229, 229);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(255, 246, 248);
   }
